@@ -1,0 +1,499 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+}
+.header{
+	height: 662px;
+	background-image: url('img/renp_p100_p_3D.jpg');
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.header .cover{
+	height: 662px;
+	background-color: #26506C;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.header .con{
+	height: 31px;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header .con a{
+	margin-left: 55px;
+	line-height: 31px;
+	font-size: 16px;
+	color: #fff;
+}
+.header .ming{
+	height: 70px;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.header .ying{
+	height: 26px;
+	text-align: center;
+	font-size: 17px;
+	color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.header .ling{
+	height: 26px;
+	text-align: center;
+	font-size: 17px;
+	color: #00FFFF;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-top: 40px;
+	margin-bottom: 45px;
+	z-index: 9999;
+}
+.yinc{
+	width: 79px;
+	height: 46px;
+	margin: 0 auto;
+	margin-bottom: 9px;
+	margin-top: 9px;
+}
+.wei{
+	height: 68px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.wei .one{
+	width: 64px;
+	height: 64px;
+	margin-right: 12px;
+	margin-bottom: 6px;
+	background-image: url('img/ji.png');
+	background-position: -256px 0;
+}
+.wei .qq{
+	background-image: url('img/ji.png');
+	background-position: -512px 0;
+}
+.wei .ww{
+	background-image: url('img/ji.png');
+	background-position: -704px 0;
+}
+.wei .ee{
+	background-image: url('img/ji.png');
+	background-position: 0 0;
+}
+.jian{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 95px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-size: 30px;
+	transform: rotate(90deg);
+	cursor: pointer;
+}
+.jian:hover{
+	border: 2px solid #00FFFF;
+	color: #00FFFF;
+}
+.one1{
+/* 	height: 568px; */
+	background-color: #D2DBE1;
+	overflow: hidden;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.one1 .two{
+	height: auto;
+	margin-top: 100px;
+	
+}
+.one1 .two .left{
+	height: 368px;
+	float: left;
+}
+.one1 .two .left .tu{
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	background-image: url('img/renn.jpg');
+	border-radius: 50%;
+}
+.one1 .two .right{
+	background: #234A68;
+	text-align: left;
+	padding: 40px 40px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #fff;
+	float: left;
+}
+.mnnm{
+	font-size: 50px;
+	text-align: center;
+	line-height: 170px;
+	font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+}
+.mnnm span{
+	display: block;
+	width: 100px;
+	height: 2px;
+	background-color: #333;
+	margin: 0 auto;
+	position: relative;
+	top: -35px;
+}
+.jiaoyu .title{
+	width: 115px;
+	height: 50px;
+	border-bottom: 2px solid #11ABB0;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.jiaoyu .right{
+	float: right;
+}
+.jiaoyu .left{
+	float: left;
+}
+.jiaoyu .box{
+	padding-bottom: 40px;
+	background-image: url("img/mki.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 40px;  
+}
+.jiaoyu .box .title1 span{
+	background-color: #ED5565;	 
+	color: #fff;
+}
+.jiaoyu .box .title2{
+	padding: 40px 0;
+	font-size: 20px;
+}
+.bai{
+	width: 1171px;
+	height: 18px;
+	background: #fff;
+
+}
+.xian{
+	width: 1171px;
+	height: 2px;
+	background: #ccc;
+}
+.jiaoyu .box1 .hong{
+	width: 100%;
+	height: 30px;
+	background: #BDC3C7;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+.jiaoyu .box1 .hong  span{
+	display: block;
+	border-radius: 20px;
+	height: 30px;
+}
+.jiaoyu .box1 .hong .z1{
+	display: block;
+	width: 60%;
+	height: 30px;
+	background: #1ABC9C;
+	border-radius: 20px;
+
+}
+.jiaoyu .box1 .hong .z2{
+	width: 40%;
+	background: #E74C3C;
+}
+.jiaoyu .box1 .hong .z3{
+	width: 20%;
+	background: #34495E;
+}
+.jiaoyu .box1 .hong .z4{
+	width: 62%;
+	background: #D35400;
+}
+.jiaoyu .box1 .hong .z5{
+	width: 19%;
+	background: #9B59B6;
+}
+.jiaoyu .box1 .hong .z6{
+	width: 42%;
+	background: blue;
+	margin-bottom: 50px;
+}
+.jiaoyu .box1 .zi{
+	margin: 15px 15px;
+	font-size: 20px;
+	color: #8D9095;
+}
+.zuopin{
+	height: auto;
+	margin-top: 70px;
+	background-image: url('img/klk.jpg');
+	background-attachment: fixed;
+	padding-top: 75px;
+	overflow: hidden;
+}
+.zuopin .ooo{
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+}
+.zuopin .img-box{
+	height: auto;
+	padding: 50px 80px 100px 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.img-box .imi{
+	width: 250px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.img-box .imi a{
+	display: block;
+	width: 250px;
+	height: 250px;
+}
+.banner0{
+	padding-top: 50px;
+}
+.banner0 .zi{
+	font-size: 35px;
+	text-align: center;
+	color: #373A41;
+	font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+
+}
+.banner0 .imgo{
+	width: 992px;
+	height: 552px;
+	margin-top: 15px;
+	background-image: url('img/lu.jpg');
+	box-shadow: 2px 2px 30px 5px rgba(0, 0, 0, 1);
+}
+.banner0 .dian{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.banner0 .dian a{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #191919;
+	border-radius: 50%;
+	float: left;
+	margin-left: 8px;
+}
+.banner0 .dian .nm{
+	background: #7E7E7E;
+}
+.last{
+	background: red;
+	margin-top: 35px;
+	background: #103B5B;
+	padding-top: 145px;
+	padding-bottom: 125px;
+}
+.last .lian{
+	font-size: 50px;
+	color: #fff;
+	font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+	text-align: center;
+	margin-bottom: 60px;
+ 
+}
+.last .tel{
+	font-size: 25px;
+	text-align: center;
+	font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+	margin-bottom: 16px;
+	color: #fff;
+}
+.last .tel a{
+	color: #11AB9D;
+}
+.last .tuu{
+	margin-top: 46px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.last .tuu .one{
+	width: 64px;
+	height: 64px;
+	margin-right: 12px;
+	margin-bottom: 6px;
+	background-image: url('img/ji.png');
+	background-position: -256px 0;
+}
+.last .tuu .qq{
+	background-image: url('img/ji.png');
+	background-position: -512px 0;
+}
+.last .tuu .ww{
+	background-image: url('img/ji.png');
+	background-position: -384px 0;
+}
+.last .tuu .ee{
+	background-image: url('img/ji.png');
+	background-position: -64px 0;
+}
+.last .tuu .mm{
+	background-image: url('img/ji.png');
+	background-position: -1024px 0;
+}
+
+.last .monst{
+	font-size: 16px;
+	color: #fff;
+	font-family: "Arial",Helvetica,Arial,Verdana,sans-serif;
+	margin-top: 27px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+	.one1 .two .right{
+		background: #234A68;
+		text-align: left;
+		padding: 25px 16px;
+		font-size: 14px;
+		line-height: 30px;
+		color: #fff;
+		float: left;
+	}
+	.banner0 .imgo{
+	width: 760px;
+	height: 500px;
+	margin-top: 15px;
+	background-image: url('img/lu.jpg');
+
+}
+}
+@media screen and (max-width:992px) and (min-width:0px){
+	.one1{
+		background-color: #D2DBE1;
+		padding-bottom: 40px;
+		box-sizing: border-box;
+	}
+	.one1 .two{
+		margin-top: 40px;
+	}
+	.header .ming{
+		font-size: 30px;
+	}
+	.mnnm{
+		font-size: 30px;
+		line-height: 100px;
+	}
+	.last .lian{
+		font-size: 30px;
+	}
+	.last{
+		padding-top: 45px;
+	}
+	.mnnm span{
+	display: block;
+	width: 100px;
+	height: 2px;
+	background-color: #333;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+}
+.zuopin .img-box{
+	height: auto;
+	padding: 50px 80px 100px 80px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+}
+@media screen and (max-width:775px) and (min-width:0px){
+	.banner0 .imgo{
+	width: 390px;
+	height: 220px;
+	margin-top: 15px;
+	background-image: url('img/lu.jpg');
+	background-size: 390px 220px;
+
+}
+}
